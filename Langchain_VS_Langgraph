@@ -34,4 +34,7 @@ use Langgraph when when your use case involves complex,non-lenear Workflows that
 2)loop
 3)HITL(Human in the loop)
 4)Multi Agent Coordination
+5)Async Task (better)
+
+but the Cons in both is abstraction alot in langchain and also langgraph
 
