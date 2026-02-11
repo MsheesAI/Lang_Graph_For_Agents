@@ -1,0 +1,37 @@
+Langchain is an opensource library designed to simplify the process of building LLM based Applications
+
+it provides some Core concept to build GEN AI Application:
+
+1)Model : components gives use a unified interface to interact with various LLM providers
+2)Prompts : Component used for giving instruction to the AI
+3)Tools : Tools are used to give AI an External info like API,some Weather Data etc.
+4)Memory : Memory is used by AI to remember past Chat there is kinds of memory (we will discuss later)
+5)Chain : Chain are used to make linear workflows use can combine things using langchain
+
+What You can do with Langchain:
+1)Simple Conversational Workflows like Chatbot , Text Summarizers
+2)Multi step Workflows
+3)Agents(Basic)
+4)RAG Applications
+
+
+
+Langgraph is an orchestration that enables you to build stateful ,multistep and event driven worflows using LLMS.
+
+There is Four Main components:
+1)nodes:In LangGraph, nodes are Python functions They work like steps
+2)edges:Edges are used to connect Nodes determine which node run to when
+3)graph: graph is the visualization of nodes andedges
+4)state: the State is a shared, mutable data structure It defines the schema of information passed between nodes
+
+
+When To use which:
+use langchain when you want to build simple , linear Workflows like summarizers
+
+
+use Langgraph when when your use case involves complex,non-lenear Workflows that need:
+1)Conditional Path
+2)loop
+3)HITL(Human in the loop)
+4)Multi Agent Coordination
+
