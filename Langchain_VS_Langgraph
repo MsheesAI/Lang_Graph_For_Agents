@@ -6,7 +6,7 @@ it provides some Core concept to build GEN AI Application:
 2)Prompts : Component used for giving instruction to the AI
 3)Tools : Tools are used to give AI an External info like API,some Weather Data etc.
 4)Memory : Memory is used by AI to remember past Chat there is kinds of memory (we will discuss later)
-5)Chain : Chain are used to make linear workflows use can combine things using langchain
+5)Chains : Chain are used to make linear workflows use can combine things using langchain
 
 What You can do with Langchain:
 1)Simple Conversational Workflows like Chatbot , Text Summarizers
