@@ -1,0 +1,13 @@
+LangGraph is very low-level, and focused entirely on agent orchestration. 
+Before using LangGraph, we recommend you familiarize yourself with some of the components used to build agents, starting with **models and tools**.
+
+We will commonly use ** LangChain ** components
+
+LangGraph is an open-source framework by LangChain designed to build complex, stateful, and agentic AI applications by modeling workflows as graphs. 
+Unlike linear chains, it enables loops, branching, and persistent state management, making it ideal for multi-agent systems and long-running tasks. 
+Key features include streaming updates, human-in-the-loop support, and enhanced control flow for reliable, production-ready AI. 
+
+LangGraph is used to build complex, reliable, and stateful AI agents by enabling cyclical graphs (loops) and persistent memory, 
+which are difficult to achieve with traditional linear LLM chains(Langchain).
+
+
